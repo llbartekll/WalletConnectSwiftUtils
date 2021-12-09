@@ -1,1 +1,3 @@
-# WalletConnectSwiftUtils
+# WalletConnectUtils
+
+A description of this package.
