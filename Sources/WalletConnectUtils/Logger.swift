@@ -40,10 +40,10 @@ public class ConsoleLogger {
         }
     }
     
-    public func error(_ items: Any..., file: String = #file, function: String = #function, line: Int = #line ) {
+    public func error(_ items: Any...) {
         if loggingLevel >= .error {
             items.forEach {
-                Swift.print("\(suffix) Error in File: \(file), Function: \(function), Line: \(line) - \($0)")
+                Swift.print("\(suffix) ‼️ \($0)")
             }
         }
     }
